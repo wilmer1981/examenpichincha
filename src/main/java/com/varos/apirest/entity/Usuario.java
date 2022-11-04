@@ -1,17 +1,11 @@
 package com.varos.apirest.entity;
 
 public class Usuario {
-	private Integer id;
 	private String message;
 	private String to;
 	private String from;
 	private int timeToLifeSec;
-	public Integer getId() {
-		return id;
-	}
-	public void setId(Integer id) {
-		this.id = id;
-	}
+	
 	public String getMessage() {
 		return message;
 	}
